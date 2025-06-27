@@ -1,4 +1,4 @@
-# Nodesty VPS API Client
+# Nodesty API Client
 
 A TypeScript/JavaScript npm package for managing VPS servers through the Nodesty API.
 
