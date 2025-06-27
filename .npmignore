@@ -1,0 +1,24 @@
+# Source files
+src/
+examples.ts
+
+# Development files
+tsconfig.json
+tsup.config.ts
+.gitignore
+
+# Build tools
+node_modules/
+*.log
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Test files
+**/*.test.*
+**/*.spec.*
+
+# Documentation (keep README.md)
+docs/

@@ -1,0 +1,47 @@
+{
+  "name": "nodesty-api",
+  "version": "1.0.0",
+  "description": "A TypeScript/JavaScript client library for Nodesty VPS management API",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build",
+    "publish:npm": "npm publish --access public"
+  },
+  "keywords": [
+    "nodesty",
+    "vps",
+    "api",
+    "client",
+    "typescript",
+    "javascript",
+    "server-management",
+    "hosting"
+  ],
+  "author": "Emirhan",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xrenata/nodesty-api.git"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.4",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}
