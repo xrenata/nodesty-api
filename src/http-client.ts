@@ -30,7 +30,6 @@ export class HttpClient {
     // Request interceptor
     this.client.interceptors.request.use(
       (config) => {
-        console.log(`Making ${config.method?.toUpperCase()} request to ${config.url}`);
         return config;
       },
       (error) => {
