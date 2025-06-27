@@ -29,7 +29,7 @@ npm install nodesty-api
 ### TypeScript
 
 ```typescript
-import { NodestyClient } from 'nodesty-vps-api';
+import { NodestyClient } from 'nodesty-api';
 
 // Option 1: Use unified client (recommended)
 const client = new NodestyClient({
@@ -49,7 +49,7 @@ if (userProfile.success) {
 }
 
 // Option 2: Use individual clients
-import { VpsApiClient, UserApiClient } from 'nodesty-vps-api';
+import { VpsApiClient, UserApiClient } from 'nodesty-api';
 
 const vpsClient = new VpsApiClient({
   apiKey: 'your-nodesty-api-key'
@@ -69,7 +69,7 @@ const graphs = await client.vps.getVpsGraphs('your-service-id');
 ### JavaScript (CommonJS)
 
 ```javascript
-const { VpsApiClient } = require('nodesty-vps-api');
+const { VpsApiClient } = require('nodesty-api');
 
 const client = new VpsApiClient({
   apiKey: 'your-nodesty-api-key'

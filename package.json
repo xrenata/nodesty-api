@@ -1,6 +1,6 @@
 {
   "name": "nodesty-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A TypeScript/JavaScript client library for Nodesty VPS management API",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
